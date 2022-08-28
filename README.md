@@ -15,7 +15,7 @@ conda activate deblursr
 ```
 
 ## Dataset set-up
-We experimented E-CIR on the [REDS](https://seungjunnah.github.io/Datasets/reds.html) dataset and the [HDF](https://github.com/chensong1995/E-CIR/blob/main/README.md) dataset. Please refer to [REDS\_Dataset.md](REDS_Dataset.md) and [HQF\_Dataset.md](HQF_Dataset.md) for instructions on how to set up these two datasets.
+We experimented DeblurSR on the [REDS](https://seungjunnah.github.io/Datasets/reds.html) dataset and the [HDF](https://timostoff.github.io/20ecnn) dataset. Please refer to [REDS\_Dataset.md](REDS_Dataset.md) and [HQF\_Dataset.md](HQF_Dataset.md) for instructions on how to set up these two datasets.
 
 ## Training
 On the REDS dataset, please set the arguments in `src/main_reds.py` and run:

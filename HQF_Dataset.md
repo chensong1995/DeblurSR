@@ -23,7 +23,7 @@ From this [link](https://drive.google.com/drive/folders/18Xdr6pxJX0ZXTrXW9tK0hC3
 ```
 
 ## Step 2: Conversion to Clean HDF5
-The .bag format is hard to process. We will first use the official tools to convert the .bag files into the HDF5 format. Please follow the instructions under `Conversion to HDF5` in [this document](https://github.com/TimoStoff/event_cnn_minimal). The commands we need is:
+The .bag format is hard to process. We will first use the official tools to convert the .bag files into the HDF5 format. Please follow the instructions under "Conversion to HDF5" in [this document](https://github.com/TimoStoff/event_cnn_minimal). The commands we need is:
 ```
 python events_contrast_maximization/tools/rosbag_to_h5.py <project_root>/data/HQF/bag --output_dir <project_root>/data/HQF/clean_hdf5 --event_topic /dvs/events --image_topic /dvs/image_raw --height 180 --width 240
 ```
