@@ -69,7 +69,7 @@ This saves the output images to `saved_weights/reds/output` and prints quantitat
 
 To evaluate the MSE, PSNR, and SSIM on the HQF dataset, please run:
 ```
-python src/main_reds.py --load_dir saved_weights/hqf/checkpoints/49 --save_dir saved_weights/hqf
+python src/main_hqf.py --load_dir saved_weights/hqf/checkpoints/49 --save_dir saved_weights/hqf
 ```
 
 This saves the output images to `saved_weights/hqf/output` and prints quantitative results to stdout.
