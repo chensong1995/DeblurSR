@@ -9,8 +9,8 @@ Given a blurry image and its associated events in the exposure interval, we appl
 ## Environment set-up
 Please install [Anaconda](https://www.anaconda.com/distribution/) first and execute the following commands:
 ```
-conda create -y --name e-cir python==3.8.11
-conda install -y -q --name e-cir -c pytorch -c conda-forge --file requirements.txt
+conda create -y --name deblursr python==3.8.11
+conda install -y -q --name deblursr -c pytorch -c conda-forge --file requirements.txt
 conda activate deblursr
 ```
 
@@ -29,7 +29,7 @@ python src/main_reds.py
 ```
 
 ## Pre-trained weights
-You can download our pre-trained weights here: [Google Drive](https://drive.google.com/) (Link will be updated after the anonymous period).
+You can download our pre-trained weights here: [OneDrive](https://utexas-my.sharepoint.com/:u:/g/personal/song_austin_utexas_edu/EUbmgKTIkfhAnzoVRcYBYOEBCMUhXTZmx5d_jx25QVLdwg?e=FoK3aR).
 
 After downloading the weights, move them accordingly so that the directory structure looks like this:
 ```
