@@ -1,5 +1,7 @@
 # DeblurSR: Event-Based Motion Deblurring Under the Spiking Representation
-This repository contains authors' implementation of [DeblurSR: Event-Based Motion Deblurring Under the Spiking Representation](https://arxiv.org). Our implementation uses the [PyTorch](https://pytorch.org/) library. We warmly welcome any discussions related to our implementation and our paper. Please feel free to open an issue.
+This repository contains authors' implementation of [DeblurSR: Event-Based Motion Deblurring Under the Spiking Representation](http://arxiv.org/abs/2303.08977). Our implementation uses the [PyTorch](https://pytorch.org/) library. We warmly welcome any discussions related to our implementation and our paper. Please feel free to open an issue.
+
+[[Video Animations]](http://songc.me/deblursr/visualization.html)
 
 ## Introduction
 Given a blurry image and its associated events in the exposure interval, we apply a Convolutional Neural Network (CNN) to extract an image embedding with the same spatial resolution as the input. For each pixel (x, y), we fuse the image embedding with the coordinate embedding using the addition operation. A group of fully-connected layers take the resulting per-pixel feature vector as input and regress the spiking parameters for each pixel as output. At time t_r, we assemble a spatially varying kernel from the predicted spiking parameters. The convolution of this kernel with the input blurry image gives the output sharp frame at time t_r. By changing the timestamps, the spiking representation allows DeblurSR to render a sharp video with an arbitrarily high frame-rate.
