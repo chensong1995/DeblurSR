@@ -4,7 +4,7 @@
 This document explains how to use the [HQF](https://timostoff.github.io/20ecnn) dataset. We apply temporal averaging to synthesize blurry images from the original sharp frames. The results will be stored in a few .hdf5 files.
 
 ## Download Links
-The conversion results are uploaded to [OneDrive](https://utexas-my.sharepoint.com/:f:/g/personal/song_austin_utexas_edu/EoCLD6adxtFOvT-4hoNU5NIBAvvYsPXPZtYzLr4C1BxI8Q?e=MbfEnt).
+The conversion results are uploaded to [Google Drive](https://drive.google.com/file/d/1-6dJtg3HbWbOWeHVLHFkv4vinmX33Tm-/view?usp=sharing).
 
 The rest of the guide can be skipped entirely if you choose download these .hdf5 files and put them in `data/HQF/`.
 

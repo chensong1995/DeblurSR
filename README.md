@@ -31,7 +31,7 @@ python src/main_reds.py
 ```
 
 ## Pre-trained weights
-You can download our pre-trained weights here: [OneDrive](https://utexas-my.sharepoint.com/:u:/g/personal/song_austin_utexas_edu/EUbmgKTIkfhAnzoVRcYBYOEBCMUhXTZmx5d_jx25QVLdwg?e=FoK3aR).
+You can download our pre-trained weights here: [Google Drive](https://drive.google.com/file/d/1xppeo_eDfOtLWz22hX_PBr08vrgIVh7y/view?usp=sharing).
 
 After downloading the weights, move them accordingly so that the directory structure looks like this:
 ```
