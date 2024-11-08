@@ -4,7 +4,7 @@
 This document explains how to using the [REDS](https://seungjunnah.github.io/Datasets/reds.html) dataset. It is a modification to [Guide to Converting the REDS Dataset into the Event Format](https://github.com/chensong1995/E-CIR/blob/main/REDS_Dataset.md). We will use the [ESIM](https://github.com/uzh-rpg/rpg_esim) to simulate events and exposure intervals, and then use least-squares to fit polynomial coefficients to the sharp frames. The results will be stored in a few .hdf5 files.
 
 ## Download Links
-The conversion results are uploaded to [Google Drive](https://drive.google.com/file/d/1Q7-S5ZHDO2szoR7ohLvr_LDgkhv9RRlC/view?usp=sharing).
+The conversion results are uploaded to [Google Drive](https://drive.google.com/drive/folders/1FVUPc3_iKA69wljhj41kIl2o7oxPg9xR).
 
 The rest of the guide can be skipped entirely if you choose download these .hdf5 files and put them in `data/REDS/`.
 
